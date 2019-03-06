@@ -131,6 +131,12 @@ intr=*(unsigned *)&(gintr);
 
 #### 在配置实验环境时，你遇到了那些问题，是如何解决的。
 
+Windows下make无法成功（尝试了[这里](https://pan.baidu.com/s/1i3JxZZR)的配置说明后，可编译通过lab0，但对于其他lab其提供的patch已经不兼容，需要手动修改Makefile；其提供的msys对中文字符支持不佳）。
+
+解决：换Ubuntu。
+
+
+
 ## 参考资料
  - [Intel格式和AT&T格式汇编区别](http://www.cnblogs.com/hdk1993/p/4820353.html)
  - [x86汇编指令集  ](http://hiyyp1234.blog.163.com/blog/static/67786373200981811422948/)
